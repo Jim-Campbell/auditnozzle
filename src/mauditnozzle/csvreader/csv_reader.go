@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"strings"
-	"github.com/kicombs/mauditnozzle/helpers"
+	"mauditnozzle/helpers"
 )
 
 type csvReader struct{

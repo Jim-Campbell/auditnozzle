@@ -1,6 +1,6 @@
 package metricparser
 
-import "github.com/kicombs/mauditnozzle/helpers"
+import "mauditnozzle/helpers"
 
 type MetricParser struct {
 	readMetrics, csvMetrics, UndocumentedMetrics, StaleCsvMetrics []string

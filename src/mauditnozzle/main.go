@@ -7,10 +7,10 @@ import (
 
 	"github.com/cloudfoundry/noaa/consumer"
 	"github.com/cloudfoundry/sonde-go/events"
-	"github.com/kicombs/mauditnozzle/csvreader"
+	"mauditnozzle/csvreader"
 	"time"
-	"github.com/kicombs/mauditnozzle/helpers"
-	"github.com/kicombs/mauditnozzle/metricparser"
+	"mauditnozzle/helpers"
+	"mauditnozzle/metricparser"
 	"flag"
 )
 
@@ -18,7 +18,7 @@ var (
 	authToken = os.Getenv("CF_ACCESS_TOKEN")  // use $(cf oauth-token | grep bearer)
 
 	metricParser *metricparser.MetricParser
-	
+
 	fileName, firehoseAddr string
 	runtime time.Duration
 )
