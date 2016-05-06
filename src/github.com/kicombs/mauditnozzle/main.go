@@ -11,20 +11,33 @@ import (
 	"time"
 	"github.com/kicombs/mauditnozzle/helpers"
 	"github.com/kicombs/mauditnozzle/metricparser"
+	"flag"
 )
 
 var (
-	firehoseAddr = os.Getenv("FIREHOSE_ADDR") // should look like ws://host:port
 	authToken = os.Getenv("CF_ACCESS_TOKEN")  // use $(cf oauth-token | grep bearer)
+
 	metricParser *metricparser.MetricParser
+	
+	fileName, firehoseAddr string
+	runtime time.Duration
 )
 
 
 const firehoseSubscriptionId = "firehose-a"
 
+func init() {
+	flag.StringVar(&fileName, "f", "", "the filename for the documentation CSV metrics")
+	flag.DurationVar(&runtime, "t", 10 * time.Second, "The duration to gather metrics from the Firehose; default 10s")
+	flag.StringVar(&firehoseAddr, "firehoseAddr", "", "the address of the firehose; format: wss://host:port")
+}
+
 func main() {
+	flag.Parse()
+	validateFlags()
+
 	fmt.Fprintln(os.Stderr, "Reading in metrics from CSV...")
-	csvMetrics := getMetricNames("metrics.list.example.csv")
+	csvMetrics := getMetricNames(fileName)
 
 	fmt.Fprintln(os.Stderr, "Starting the firehose...")
 	msgChan := startFirehose()
@@ -65,6 +78,7 @@ func startFirehose() <-chan *events.Envelope {
 	go func() {
 		for err := range errorChan {
 			fmt.Fprintf(os.Stdout, "%v\n", err.Error())
+			fmt.Fprintln(os.Stdout, "You could try resetting the CF_ACCESS_TOKEN env variable")
 			os.Exit(-1)
 		}
 	}()
@@ -74,7 +88,7 @@ func startFirehose() <-chan *events.Envelope {
 
 func readFirehoseMetrics(msgChan <-chan *events.Envelope) []string {
 	var readMetrics []string
-	timer := time.NewTimer(5 * time.Second)
+	timer := time.NewTimer(runtime)
 	for {
 		select {
 		case <-timer.C:
@@ -98,6 +112,18 @@ func parseMetricName(msg *events.Envelope) string {
 		return msg.GetCounterEvent().GetName()
 	}
 	return ""
+}
+
+func validateFlags() {
+	if fileName == "" {
+		fmt.Fprintln(os.Stdout, "must provide a file name: -f")
+		os.Exit(-1)
+	}
+
+	if firehoseAddr == "" {
+		fmt.Fprintln(os.Stdout, "must provide an address for the firehose: -firehoseAddr")
+		os.Exit(-1)
+	}
 }
 
 type ConsoleDebugPrinter struct{}
