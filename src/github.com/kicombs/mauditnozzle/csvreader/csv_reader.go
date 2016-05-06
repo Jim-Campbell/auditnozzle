@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"strings"
+	"github.com/kicombs/mauditnozzle/helpers"
 )
 
 type csvReader struct{
@@ -36,18 +37,9 @@ func (c *csvReader) readFromFile(filename string) {
 			log.Fatal(err)
 		}
 
-		if !exists(record[0], metrics) {
+		if !helpers.Exists(record[0], metrics) {
 			metrics = append(metrics, record[0])
 		}
 	}
 	c.Metrics = metrics
-}
-
-func exists(a string, list []string) bool {
-	for _, b := range list {
-		if b == a {
-			return true
-		}
-	}
-	return false
 }
