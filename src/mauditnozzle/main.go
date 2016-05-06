@@ -9,7 +9,6 @@ import (
 	"github.com/cloudfoundry/sonde-go/events"
 	"mauditnozzle/csvreader"
 	"time"
-	"mauditnozzle/helpers"
 	"mauditnozzle/metricparser"
 	"flag"
 )
@@ -50,7 +49,7 @@ func main() {
 
 	metricParser.FindFirehoseMetricsNoDocumentation()
 	metricParser.FindCSVMetricsNoFirehose()
-	fmt.Fprintf(os.Stdout, "Read: %d, CSV: %d, MissingFirehose: %d, MissingCsvMetrics: %d\n", len(readMetrics), len(csvMetrics), len(metricParser.UndocumentedMetrics), len(metricParser.StaleCsvMetrics))
+	fmt.Fprintf(os.Stdout, "Read: %d, CSV: %d, Undocumented: %d, Unused: %d\n", len(readMetrics), len(csvMetrics), len(metricParser.UndocumentedMetrics), len(metricParser.StaleCsvMetrics))
 
 	fmt.Fprintf(os.Stdout, "\n\nUndocumented Firehose Metrics:\n")
 	for _, metric := range metricParser.UndocumentedMetrics {
@@ -86,8 +85,8 @@ func startFirehose() <-chan *events.Envelope {
 	return msgChan
 }
 
-func readFirehoseMetrics(msgChan <-chan *events.Envelope) []string {
-	var readMetrics []string
+func readFirehoseMetrics(msgChan <-chan *events.Envelope) map[string]string {
+	readMetrics := make(map[string]string)
 	timer := time.NewTimer(runtime)
 	for {
 		select {
@@ -96,12 +95,12 @@ func readFirehoseMetrics(msgChan <-chan *events.Envelope) []string {
 		default:
 			msg := <-msgChan
 			name := parseMetricName(msg)
-			if !helpers.Exists(name, readMetrics) && name != "" {
-				readMetrics = append(readMetrics, name)
+			if _, ok := readMetrics[name]; !ok {
+				readMetrics[name] = msg.GetOrigin()
 			}
 		}
 	}
-	return []string{}
+	return make(map[string]string)
 }
 
 func parseMetricName(msg *events.Envelope) string {

@@ -1,12 +1,16 @@
 package metricparser
 
-import "mauditnozzle/helpers"
+import (
+	"mauditnozzle/helpers"
+	"fmt"
+)
 
 type MetricParser struct {
-	readMetrics, csvMetrics, UndocumentedMetrics, StaleCsvMetrics []string
+	readMetrics map[string]string
+	csvMetrics, UndocumentedMetrics, StaleCsvMetrics []string
 }
 
-func NewMetricParser(readMetrics, csvMetrics []string) *MetricParser{
+func NewMetricParser(readMetrics map[string]string, csvMetrics []string) *MetricParser{
 	return &MetricParser{
 		readMetrics: readMetrics,
 		csvMetrics: csvMetrics,
@@ -15,9 +19,9 @@ func NewMetricParser(readMetrics, csvMetrics []string) *MetricParser{
 
 func (p *MetricParser) FindFirehoseMetricsNoDocumentation() {
 	var missingMetrics []string
-	for _, metric := range p.readMetrics {
+	for metric, origin := range p.readMetrics {
 		if !helpers.Exists(metric, p.csvMetrics) {
-			missingMetrics = append(missingMetrics, metric)
+			missingMetrics = append(missingMetrics, fmt.Sprintf("%s=%s", origin, metric))
 		}
 	}
 	p.UndocumentedMetrics = missingMetrics
@@ -26,7 +30,7 @@ func (p *MetricParser) FindFirehoseMetricsNoDocumentation() {
 func (p *MetricParser) FindCSVMetricsNoFirehose() {
 	var missingMetrics []string
 	for _, metric := range p.csvMetrics {
-		if !helpers.Exists(metric, p.readMetrics) {
+		if _, ok := p.readMetrics[metric]; !ok {
 			missingMetrics = append(missingMetrics, metric)
 		}
 	}

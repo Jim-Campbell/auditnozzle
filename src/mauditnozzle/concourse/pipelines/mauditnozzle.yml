@@ -1,0 +1,33 @@
+resources:
+- name: maudit-nozzle
+  type: git
+  source:
+    uri: git@github.com:kicombs/mauditnozzle
+    branch: master
+    private_key: {{maudit-nozzle-git-key}}
+
+- name: bumped-maudit-nozzle
+  type: git
+  source:
+    uri: git@github.com:kicombs/mauditnozzle
+    branch: master
+    private_key: {{maudit-nozzle-git-key}}
+
+- name: docs-loggregator
+  type: git
+  source:
+    uri: git@github.com:pivotal-cf/docs-loggregator
+    branch: master
+    private_key: {{maudit-nozzle-git-key}}
+
+jobs:
+## Submodules
+- name: run-audit
+  serial: true
+  plan:
+  - aggregate:
+    - get: docs-loggregator
+      trigger: true
+    - get: mauditnozzle
+  - task: run-metrics-audit
+    file: mauditnozzle/src/mauditnozzle/concourse/scripts/run_audit.yml

@@ -1,0 +1,1668 @@
+Starting the nozzle
+Hit Ctrl+c to exit
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573328981670393 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" valueMetric:<name:"messageRouter.numberOfFirehoseSinks" value:3 unit:"sinks" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573328978048469 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"messageRouter.numberOfFirehoseSinks" value:3 unit:"sinks" >  
+
+origin:"gorouter" eventType:ValueMetric timestamp:1462573329072491035 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" valueMetric:<name:"numGoRoutines" value:67 unit:"count" >  
+
+origin:"gorouter" eventType:ValueMetric timestamp:1462573329072435845 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573329072764190 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"responses" delta:4 total:4078 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573329072657866 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"total_requests" delta:6 total:4159 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573329072733470 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"requests.CloudController" delta:3 total:3318 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573329072752118 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"responses.2xx" delta:4 total:4066 >  
+
+origin:"gorouter" eventType:ValueMetric timestamp:1462573329072871431 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" valueMetric:<name:"memoryStats.numMallocs" value:1.889119e+06 unit:"count" >  
+
+origin:"gorouter" eventType:ValueMetric timestamp:1462573329072885416 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" valueMetric:<name:"memoryStats.numFrees" value:1.879032e+06 unit:"count" >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573329072775433 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"requests.uaa" delta:1 total:447 >  
+
+origin:"gorouter" eventType:ValueMetric timestamp:1462573329072827169 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:4.33664e+06 unit:"count" >  
+
+origin:"gorouter" eventType:ValueMetric timestamp:1462573329072846393 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:819200 unit:"count" >  
+
+origin:"gorouter" eventType:ValueMetric timestamp:1462573329072859447 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" valueMetric:<name:"memoryStats.numBytesAllocated" value:4.33664e+06 unit:"count" >  
+
+origin:"gorouter" eventType:ValueMetric timestamp:1462573329072896920 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:177158 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573329138808079 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:1.07488e+06 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573329138730502 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"numCPUS" value:1 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573329138774480 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"numGoRoutines" value:28 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573329138844949 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:128652 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573329138818118 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:557056 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573329138825012 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocated" value:1.07488e+06 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573329138831729 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numMallocs" value:1.8792937e+07 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573329138838842 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numFrees" value:1.8784193e+07 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329175450388 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" counterEvent:<name:"DopplerForwarder.sentMessages" delta:16 total:79524 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329175223152 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:8 total:46295 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329175328165 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:32014 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329175355321 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" counterEvent:<name:"udp.sentMessageCount" delta:16 total:79524 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329175424567 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" counterEvent:<name:"udp.sentByteCount" delta:2184 total:10492586 >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573329209539834 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"GardenContainerCreationDuration" value:2.74319377e+08 unit:"nanos" >  
+
+origin:"rep" eventType:LogMessage timestamp:1462573329233915902 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" logMessage:<message:"Successfully created container" message_type:OUT timestamp:1462573329233914508 app_id:"ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" source_type:"STG" source_instance:"0" >  
+
+origin:"rep" eventType:LogMessage timestamp:1462573329234734688 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" logMessage:<message:"Downloading app package..." message_type:OUT timestamp:1462573329234733299 app_id:"ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" source_type:"STG" source_instance:"0" >  
+
+origin:"bbs" eventType:CounterEvent timestamp:1462573329233201181 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"RequestCount" delta:1 total:24716 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329236621632 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:20 total:84795 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329236652073 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"udp.sentByteCount" delta:6868 total:19797795 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329236395867 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"udp.sentMessageCount" delta:48 total:140091 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329236517573 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:28 total:55296 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329236561108 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:2290 total:6086063 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329236592322 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:20 total:42320 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329236685056 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"DopplerForwarder.sentMessages" delta:48 total:140091 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329236717198 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:31 total:85909 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329236749883 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"dropsondeUnmarshaller.counterEventReceived" delta:11 total:43589 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329238481278 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:1649 total:7999770 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329238328836 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:9 total:39567 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329238409888 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"udp.sentByteCount" delta:6060 total:24945762 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329238443275 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"DopplerForwarder.sentMessages" delta:41 total:169279 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329238460352 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:24 total:117112 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329238547296 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:32 total:129712 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329238498127 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:24 total:116736 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329238524973 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"udp.sentMessageCount" delta:41 total:169279 >  
+
+origin:"bbs" eventType:ValueMetric timestamp:1462573329247422302 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" valueMetric:<name:"RequestLatency" value:1.4149951e+07 unit:"nanos" >  
+
+origin:"rep" eventType:LogMessage timestamp:1462573329277217602 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" logMessage:<message:"Downloaded app package (1.6K)" message_type:OUT timestamp:1462573329277215608 app_id:"ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" source_type:"STG" source_instance:"0" >  
+
+origin:"rep" eventType:LogMessage timestamp:1462573329277288607 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" logMessage:<message:"Staging..." message_type:OUT timestamp:1462573329277287517 app_id:"ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" source_type:"STG" source_instance:"0" >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573329363243175 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"udpListener.receivedMessageCount" delta:434 total:1766151 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573329363886652 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"dropsondeUnmarshaller.logMessageTotal" delta:2 total:43522 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573329363550134 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"udpListener.receivedByteCount" delta:62038 total:268473617 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573329363645638 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"sentMessagesFirehose.datadog-nozzle" delta:434 total:1762210 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573329363773032 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"dropsondeUnmarshaller.httpStartStopReceived" delta:14 total:21865 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573329364698654 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"httpServer.receivedMessages" delta:434 total:1766151 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573329364005768 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"sentMessagesFirehose.FirehosePlugin" delta:23 total:635 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573329364180714 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"listeners.totalReceivedMessageCount" delta:434 total:1766151 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573329364310262 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"signatureVerifier.validSignatures" delta:434 total:1766151 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573329364469160 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"dropsondeUnmarshaller.counterEventReceived" delta:166 total:717537 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573329364991821 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:252 total:982949 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573329364876993 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"sentMessagesFirehose.bdb5891d-fbfa-42af-4ead-320a7661d722" delta:434 total:38023 >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573329418122385 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"numGoRoutines" value:26 unit:"count" >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573329418056830 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573329418488913 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numFrees" value:2.500761e+06 unit:"count" >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573329418500492 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:5.016148e+06 unit:"count" >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573329418417983 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:793456 unit:"count" >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573329418447750 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:557056 unit:"count" >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573329418463794 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numBytesAllocated" value:793456 unit:"count" >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573329418477019 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numMallocs" value:2.508549e+06 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329462868725 deployment:"cf-walnut" job:"nats_z1" index:"0" ip:"10.0.16.11" counterEvent:<name:"udp.sentByteCount" delta:1609 total:4502986 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329462741395 deployment:"cf-walnut" job:"nats_z1" index:"0" ip:"10.0.16.11" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:4 total:21072 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329462828196 deployment:"cf-walnut" job:"nats_z1" index:"0" ip:"10.0.16.11" counterEvent:<name:"udp.sentMessageCount" delta:12 total:34048 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329462939412 deployment:"cf-walnut" job:"nats_z1" index:"0" ip:"10.0.16.11" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:8 total:12976 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329462915034 deployment:"cf-walnut" job:"nats_z1" index:"0" ip:"10.0.16.11" counterEvent:<name:"DopplerForwarder.sentMessages" delta:12 total:34048 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329521881633 deployment:"cf-walnut" job:"api_worker_z2" index:"0" ip:"10.0.81.3" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:8 total:12976 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329521738300 deployment:"cf-walnut" job:"api_worker_z2" index:"0" ip:"10.0.81.3" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:4 total:21072 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329521798690 deployment:"cf-walnut" job:"api_worker_z2" index:"0" ip:"10.0.81.3" counterEvent:<name:"udp.sentMessageCount" delta:12 total:34048 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329521828402 deployment:"cf-walnut" job:"api_worker_z2" index:"0" ip:"10.0.81.3" counterEvent:<name:"udp.sentByteCount" delta:1669 total:4673310 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329521855622 deployment:"cf-walnut" job:"api_worker_z2" index:"0" ip:"10.0.81.3" counterEvent:<name:"DopplerForwarder.sentMessages" delta:12 total:34048 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329558120092 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" counterEvent:<name:"DopplerForwarder.sentMessages" delta:8 total:101736 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329557934407 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:32820 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329558040238 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" counterEvent:<name:"udp.sentMessageCount" delta:8 total:101736 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329558091920 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" counterEvent:<name:"udp.sentByteCount" delta:1141 total:14812549 >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573329558566110 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numBytesAllocated" value:1.288496e+06 unit:"count" >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573329558595806 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numMallocs" value:6.996413e+06 unit:"count" >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573329558367562 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573329558404987 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"numGoRoutines" value:25 unit:"count" >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573329558487836 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:1.288496e+06 unit:"count" >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573329558522371 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:491520 unit:"count" >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573329558622767 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numFrees" value:6.979514e+06 unit:"count" >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573329558649037 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:128026 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329639824204 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:44 total:3522 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329639855302 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:44 total:3965 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329639657557 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"udp.sentByteCount" delta:6538 total:649269 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329639728793 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"DopplerForwarder.sentMessages" delta:52 total:5113 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329639749790 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:44 total:3565 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329639791121 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:2565 total:207322 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329639875439 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:1148 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329639890712 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"udp.sentMessageCount" delta:52 total:5113 >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573329756097692 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" valueMetric:<name:"audit_service.principal_authentication_failure_count" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573329756120453 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" valueMetric:<name:"audit_service.user_password_failures" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573329755881191 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" valueMetric:<name:"audit_service.principal_not_found_count" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573329755919071 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" valueMetric:<name:"audit_service.user_authentication_count" value:379 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573329756022955 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" valueMetric:<name:"audit_service.user_authentication_failure_count" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573329756042968 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" valueMetric:<name:"audit_service.user_not_found_count" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573329756203577 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" valueMetric:<name:"audit_service.user_password_changes" value:0 unit:"gauge" >  
+
+origin:"converger" eventType:ValueMetric timestamp:1462573329769793585 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" valueMetric:<name:"memoryStats.numBytesAllocated" value:1.114224e+06 unit:"count" >  
+
+origin:"converger" eventType:ValueMetric timestamp:1462573329769799356 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" valueMetric:<name:"memoryStats.numMallocs" value:4.312228e+06 unit:"count" >  
+
+origin:"converger" eventType:ValueMetric timestamp:1462573329769692932 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" valueMetric:<name:"numCPUS" value:1 unit:"count" >  
+
+origin:"converger" eventType:ValueMetric timestamp:1462573329769742562 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" valueMetric:<name:"numGoRoutines" value:38 unit:"count" >  
+
+origin:"converger" eventType:ValueMetric timestamp:1462573329769777780 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:1.114224e+06 unit:"count" >  
+
+origin:"converger" eventType:ValueMetric timestamp:1462573329769787331 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:622592 unit:"count" >  
+
+origin:"converger" eventType:ValueMetric timestamp:1462573329769805520 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" valueMetric:<name:"memoryStats.numFrees" value:4.302365e+06 unit:"count" >  
+
+origin:"converger" eventType:ValueMetric timestamp:1462573329769811615 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:91931 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329882619778 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"DopplerForwarder.sentMessages" delta:39 total:147034 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329882473229 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:1085 total:4570042 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329882546758 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"dropsondeUnmarshaller.counterEventReceived" delta:7 total:30372 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329882579826 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:16 total:72096 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329882598142 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"udp.sentMessageCount" delta:39 total:147034 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329882700885 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:15 total:61962 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329882665363 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"udp.sentByteCount" delta:5328 total:19898598 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329882643846 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:22 total:92334 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573329882684330 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:23 total:74938 >  
+
+origin:"rep" eventType:CounterEvent timestamp:1462573329991289830 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" counterEvent:<name:"logSenderTotalMessagesRead" delta:7 total:56967 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330240761623 deployment:"cf-walnut" job:"etcd_z1" index:"0" ip:"10.0.16.20" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:13 total:32053 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330240596851 deployment:"cf-walnut" job:"etcd_z1" index:"0" ip:"10.0.16.20" counterEvent:<name:"udp.sentMessageCount" delta:13 total:79373 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330240677740 deployment:"cf-walnut" job:"etcd_z1" index:"0" ip:"10.0.16.20" counterEvent:<name:"udp.sentByteCount" delta:1787 total:10476582 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330240717216 deployment:"cf-walnut" job:"etcd_z1" index:"0" ip:"10.0.16.20" counterEvent:<name:"DopplerForwarder.sentMessages" delta:13 total:79373 >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573330290003512 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"logSenderTotalMessagesRead" value:0 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573330290513255 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"numGoRoutines" value:22 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573330290473076 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573330290818615 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numBytesAllocated" value:3.894856e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573330290760377 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:3.894856e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573330290794545 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:1.081344e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573330290906602 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:689204 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573330290860573 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numMallocs" value:3.4613544e+07 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573330290883937 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numFrees" value:3.457623e+07 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330309114136 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z1" index:"0" ip:"10.0.17.7" counterEvent:<name:"DopplerForwarder.sentMessages" delta:8 total:64051 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330308994475 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z1" index:"0" ip:"10.0.17.7" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:30420 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330309058949 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z1" index:"0" ip:"10.0.17.7" counterEvent:<name:"udp.sentMessageCount" delta:8 total:64051 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330309087053 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z1" index:"0" ip:"10.0.17.7" counterEvent:<name:"udp.sentByteCount" delta:1284 total:10547747 >  
+
+origin:"rep" eventType:LogMessage timestamp:1462573330387046898 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" logMessage:<message:"-----> Java Buildpack Version: v3.7 | https://github.com/cloudfoundry/java-buildpack.git#b07524d" message_type:OUT timestamp:1462573330387044381 app_id:"ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" source_type:"STG" source_instance:"0" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330423460685 deployment:"cf-walnut" job:"etcd_z1" index:"1" ip:"10.0.16.35" counterEvent:<name:"DopplerForwarder.sentMessages" delta:8 total:79099 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330423346463 deployment:"cf-walnut" job:"etcd_z1" index:"1" ip:"10.0.16.35" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:32051 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330423400322 deployment:"cf-walnut" job:"etcd_z1" index:"1" ip:"10.0.16.35" counterEvent:<name:"udp.sentMessageCount" delta:8 total:79099 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330423433581 deployment:"cf-walnut" job:"etcd_z1" index:"1" ip:"10.0.16.35" counterEvent:<name:"udp.sentByteCount" delta:1093 total:10444899 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330476131794 deployment:"cf-walnut" job:"api_worker_z1" index:"0" ip:"10.0.17.4" counterEvent:<name:"udp.sentMessageCount" delta:12 total:34050 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330475970720 deployment:"cf-walnut" job:"api_worker_z1" index:"0" ip:"10.0.17.4" counterEvent:<name:"udp.sentByteCount" delta:1669 total:4673598 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330476048319 deployment:"cf-walnut" job:"api_worker_z1" index:"0" ip:"10.0.17.4" counterEvent:<name:"DopplerForwarder.sentMessages" delta:12 total:34050 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330476077265 deployment:"cf-walnut" job:"api_worker_z1" index:"0" ip:"10.0.17.4" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:8 total:12976 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330476104573 deployment:"cf-walnut" job:"api_worker_z1" index:"0" ip:"10.0.17.4" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:4 total:21074 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330489815225 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:25 total:22948 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330489840256 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"DopplerForwarder.sentMessages" delta:69 total:44946 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330489620143 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"udp.sentMessageCount" delta:69 total:44946 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330489695423 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"udp.sentByteCount" delta:10984 total:6951367 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330489735901 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:51 total:34023 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330489781293 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"dropsondeUnmarshaller.httpStartStopReceived" delta:14 total:7855 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330489864884 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:44 total:21998 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330489913244 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"dropsondeUnmarshaller.counterEventReceived" delta:15 total:14457 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330489890027 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:4930 total:3052676 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330489939132 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:22 total:11562 >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573330593030149 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:655360 unit:"count" >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573330592917448 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"numCPUS" value:1 unit:"count" >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573330592973622 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"numGoRoutines" value:41 unit:"count" >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573330593012676 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:1.652904e+06 unit:"count" >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573330593086907 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:122563 unit:"count" >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573330593040606 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocated" value:1.652904e+06 unit:"count" >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573330593049514 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numMallocs" value:6.001043e+06 unit:"count" >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573330593058555 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numFrees" value:5.986298e+06 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330631287374 deployment:"cf-walnut" job:"clock_global" index:"0" ip:"10.0.17.3" counterEvent:<name:"udp.sentByteCount" delta:1657 total:4639247 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330631149831 deployment:"cf-walnut" job:"clock_global" index:"0" ip:"10.0.17.3" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:8 total:12976 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330631215525 deployment:"cf-walnut" job:"clock_global" index:"0" ip:"10.0.17.3" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:4 total:21072 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330631244760 deployment:"cf-walnut" job:"clock_global" index:"0" ip:"10.0.17.3" counterEvent:<name:"udp.sentMessageCount" delta:12 total:34048 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330631314071 deployment:"cf-walnut" job:"clock_global" index:"0" ip:"10.0.17.3" counterEvent:<name:"DopplerForwarder.sentMessages" delta:12 total:34048 >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573330666097782 deployment:"cf-walnut" job:"etcd_z1" index:"0" ip:"10.0.16.20" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573330666033504 deployment:"cf-walnut" job:"etcd_z1" index:"0" ip:"10.0.16.20" valueMetric:<name:"logSenderTotalMessagesRead" value:0 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573330666118123 deployment:"cf-walnut" job:"etcd_z1" index:"0" ip:"10.0.16.20" valueMetric:<name:"numGoRoutines" value:27 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573330666377512 deployment:"cf-walnut" job:"etcd_z1" index:"0" ip:"10.0.16.20" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:1.274344e+06 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573330666480362 deployment:"cf-walnut" job:"etcd_z1" index:"0" ip:"10.0.16.20" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:162280 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573330666426557 deployment:"cf-walnut" job:"etcd_z1" index:"0" ip:"10.0.16.20" valueMetric:<name:"memoryStats.numBytesAllocated" value:1.274344e+06 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573330666407694 deployment:"cf-walnut" job:"etcd_z1" index:"0" ip:"10.0.16.20" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:557056 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573330666444521 deployment:"cf-walnut" job:"etcd_z1" index:"0" ip:"10.0.16.20" valueMetric:<name:"memoryStats.numMallocs" value:2.296391e+06 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573330666462975 deployment:"cf-walnut" job:"etcd_z1" index:"0" ip:"10.0.16.20" valueMetric:<name:"memoryStats.numFrees" value:2.288824e+06 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330766294105 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:8 total:51888 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330766276811 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" counterEvent:<name:"DopplerForwarder.sentMessages" delta:16 total:81867 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330766153258 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:29979 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330766222077 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" counterEvent:<name:"udp.sentMessageCount" delta:16 total:81867 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573330766256241 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" counterEvent:<name:"udp.sentByteCount" delta:2312 total:11710981 >  
+
+origin:"bbs" eventType:CounterEvent timestamp:1462573330818012695 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"RequestCount" delta:1 total:24718 >  
+
+origin:"bbs" eventType:CounterEvent timestamp:1462573330817774544 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"RequestCount" delta:1 total:24717 >  
+
+origin:"bbs" eventType:ValueMetric timestamp:1462573330834254591 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" valueMetric:<name:"RequestLatency" value:1.6194031e+07 unit:"nanos" >  
+
+origin:"bbs" eventType:ValueMetric timestamp:1462573330838852826 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" valueMetric:<name:"RequestLatency" value:2.1006473e+07 unit:"nanos" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573330823011041 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"RepBulkSyncDuration" value:2.2045837e+07 unit:"nanos" >  
+
+origin:"bbs" eventType:CounterEvent timestamp:1462573330840032069 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"RequestCount" delta:1 total:24719 >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573330847142586 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" valueMetric:<name:"audit_service.principal_not_found_count" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573330847384948 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" valueMetric:<name:"audit_service.user_authentication_count" value:389 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573330847425021 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" valueMetric:<name:"audit_service.user_authentication_failure_count" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573330847641859 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" valueMetric:<name:"audit_service.user_password_failures" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573330847511565 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" valueMetric:<name:"audit_service.user_not_found_count" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573330847556262 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" valueMetric:<name:"audit_service.principal_authentication_failure_count" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573330847677098 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" valueMetric:<name:"audit_service.user_password_changes" value:0 unit:"gauge" >  
+
+origin:"bbs" eventType:ValueMetric timestamp:1462573330855908735 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" valueMetric:<name:"RequestLatency" value:1.5843096e+07 unit:"nanos" >  
+
+origin:"ssh-proxy" eventType:ValueMetric timestamp:1462573330991347799 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"memoryStats.numBytesAllocated" value:706944 unit:"count" >  
+
+origin:"ssh-proxy" eventType:ValueMetric timestamp:1462573330991357375 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"memoryStats.numMallocs" value:9.428588e+06 unit:"count" >  
+
+origin:"ssh-proxy" eventType:ValueMetric timestamp:1462573330991245813 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"numCPUS" value:1 unit:"count" >  
+
+origin:"ssh-proxy" eventType:ValueMetric timestamp:1462573330991292485 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"numGoRoutines" value:24 unit:"count" >  
+
+origin:"ssh-proxy" eventType:ValueMetric timestamp:1462573330991324141 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:706944 unit:"count" >  
+
+origin:"ssh-proxy" eventType:ValueMetric timestamp:1462573330991337869 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:491520 unit:"count" >  
+
+origin:"ssh-proxy" eventType:ValueMetric timestamp:1462573330991367463 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"memoryStats.numFrees" value:9.420729e+06 unit:"count" >  
+
+origin:"ssh-proxy" eventType:ValueMetric timestamp:1462573330991377269 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:89499 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573331009719244 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" valueMetric:<name:"memoryStats.numBytesAllocated" value:920296 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573331009731468 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" valueMetric:<name:"memoryStats.numMallocs" value:8.951748e+06 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573331009567018 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" valueMetric:<name:"numCPUS" value:1 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573331009633302 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" valueMetric:<name:"numGoRoutines" value:24 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573331009676024 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:920296 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573331009691021 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:491520 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573331009741912 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" valueMetric:<name:"memoryStats.numFrees" value:8.941689e+06 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573331009751387 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:109336 unit:"count" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573331014447310 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:1.127232e+06 unit:"count" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573331014371799 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"numCPUS" value:1 unit:"count" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573331014415549 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"numGoRoutines" value:30 unit:"count" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573331014484870 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:100500 unit:"count" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573331014459088 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:557056 unit:"count" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573331014466557 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocated" value:1.127232e+06 unit:"count" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573331014472686 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numMallocs" value:1.0084117e+07 unit:"count" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573331014479017 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numFrees" value:1.0075788e+07 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331061495586 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:8 total:109022 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331061395027 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:8 total:109022 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331061466843 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:523 total:7235887 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331061522608 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:8 total:121998 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331061633808 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" counterEvent:<name:"DopplerForwarder.sentMessages" delta:16 total:160909 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331061580792 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" counterEvent:<name:"udp.sentMessageCount" delta:16 total:160909 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331061607998 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" counterEvent:<name:"udp.sentByteCount" delta:2176 total:21889022 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331061549793 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:38911 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331077229654 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:32906 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331077047051 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" counterEvent:<name:"udp.sentMessageCount" delta:8 total:116802 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331077152361 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" counterEvent:<name:"udp.sentByteCount" delta:1141 total:35447228 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331077193284 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" counterEvent:<name:"DopplerForwarder.sentMessages" delta:8 total:116802 >  
+
+origin:"listener" eventType:ValueMetric timestamp:1462573331111949296 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"numGoRoutines" value:44 unit:"count" >  
+
+origin:"listener" eventType:ValueMetric timestamp:1462573331111892093 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"listener" eventType:ValueMetric timestamp:1462573331112241048 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numFrees" value:3.723008e+06 unit:"count" >  
+
+origin:"listener" eventType:ValueMetric timestamp:1462573331112259648 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:155250 unit:"count" >  
+
+origin:"listener" eventType:ValueMetric timestamp:1462573331112140630 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:1.22212e+06 unit:"count" >  
+
+origin:"listener" eventType:ValueMetric timestamp:1462573331112194001 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:622592 unit:"count" >  
+
+origin:"listener" eventType:ValueMetric timestamp:1462573331112213526 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numBytesAllocated" value:1.22212e+06 unit:"count" >  
+
+origin:"listener" eventType:ValueMetric timestamp:1462573331112226246 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numMallocs" value:3.729152e+06 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573331120770909 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:2.425448e+06 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573331120476368 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573331120563510 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"numGoRoutines" value:277 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573331120953672 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:322039 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573331120873794 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:1.769472e+06 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573331120915773 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numMallocs" value:2.3749132e+07 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573331120934629 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numFrees" value:2.3729483e+07 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573331120897012 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" valueMetric:<name:"memoryStats.numBytesAllocated" value:2.425448e+06 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331147262264 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:12 total:3529 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331147175020 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:14 total:3578 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331147437078 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" counterEvent:<name:"udp.sentByteCount" delta:4230 total:681215 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331147471088 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:22 total:4042 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331147295736 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" counterEvent:<name:"dropsondeUnmarshaller.logMessageTotal" delta:2 total:49 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331147332582 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:9 total:1306 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331147367610 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" counterEvent:<name:"udp.sentMessageCount" delta:31 total:5348 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331147404998 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" counterEvent:<name:"DopplerForwarder.sentMessages" delta:31 total:5348 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331147505791 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:1026 total:208919 >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573331224643195 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"logSenderTotalMessagesRead" value:0 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573331225040156 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573331225180263 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:2.425992e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573331225074730 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"numGoRoutines" value:45 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573331225300537 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"memoryStats.numFrees" value:2.9105084e+07 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573331225247329 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:1.212416e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573331225266311 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"memoryStats.numBytesAllocated" value:2.425992e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573331225283511 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"memoryStats.numMallocs" value:2.9124908e+07 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573331225317021 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:721549 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331249603392 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:26 total:22949 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331249767940 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:16 total:11978 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331249794705 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"udp.sentMessageCount" delta:58 total:45775 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331249657661 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:32 total:22826 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331249685687 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:40 total:34829 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331249713617 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:3387 total:3164157 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331249740544 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"dropsondeUnmarshaller.httpStartStopReceived" delta:8 total:8243 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331249829395 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"udp.sentByteCount" delta:8685 total:7121566 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331249888956 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"dropsondeUnmarshaller.counterEventReceived" delta:16 total:14467 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331249857222 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"DopplerForwarder.sentMessages" delta:58 total:45775 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573331480708038 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"registry_message.uaa" delta:1 total:9219 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573331480604792 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"registry_message.uaa" delta:1 total:9217 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573331480683551 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"registry_message.uaa" delta:1 total:9218 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573331480726784 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"registry_message.uaa" delta:1 total:9220 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573331479734919 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"registry_message.uaa" delta:1 total:9100 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573331479637187 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"registry_message.uaa" delta:1 total:9097 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573331479691550 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"registry_message.uaa" delta:1 total:9098 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573331479714142 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"registry_message.uaa" delta:1 total:9099 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331506781982 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:17 total:97810 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331506669299 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" counterEvent:<name:"DopplerForwarder.sentMessages" delta:35 total:144519 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331507048618 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" counterEvent:<name:"dropsondeUnmarshaller.logMessageTotal" delta:8 total:50278 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331506831059 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:11 total:33986 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331507120402 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" counterEvent:<name:"udp.sentMessageCount" delta:35 total:144519 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331507084206 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" counterEvent:<name:"dropsondeUnmarshaller.counterEventReceived" delta:1 total:253 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331506915603 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" counterEvent:<name:"udp.sentByteCount" delta:5249 total:65680105 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331506962276 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:1411 total:51829339 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331507007299 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:8 total:46751 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331507160648 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:24 total:110533 >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573331535150099 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"numGoRoutines" value:21 unit:"count" >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573331535062125 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573331535541822 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numFrees" value:1.242059e+06 unit:"count" >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573331535564273 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:118015 unit:"count" >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573331535435582 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:582184 unit:"count" >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573331535473611 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:491520 unit:"count" >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573331535493170 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numBytesAllocated" value:582184 unit:"count" >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573331535512113 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numMallocs" value:1.247778e+06 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331642849037 deployment:"cf-walnut-diego" job:"brain_z2" index:"0" ip:"10.0.49.52" counterEvent:<name:"udp.sentByteCount" delta:2963 total:11614069 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331642865026 deployment:"cf-walnut-diego" job:"brain_z2" index:"0" ip:"10.0.49.52" counterEvent:<name:"DopplerForwarder.sentMessages" delta:21 total:81898 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331642687718 deployment:"cf-walnut-diego" job:"brain_z2" index:"0" ip:"10.0.49.52" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:16 total:38928 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331642765138 deployment:"cf-walnut-diego" job:"brain_z2" index:"0" ip:"10.0.49.52" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:16 total:51904 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331642798994 deployment:"cf-walnut-diego" job:"brain_z2" index:"0" ip:"10.0.49.52" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:5 total:29994 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331642824446 deployment:"cf-walnut-diego" job:"brain_z2" index:"0" ip:"10.0.49.52" counterEvent:<name:"udp.sentMessageCount" delta:21 total:81898 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331642892981 deployment:"cf-walnut-diego" job:"brain_z2" index:"0" ip:"10.0.49.52" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:16 total:38928 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331642910275 deployment:"cf-walnut-diego" job:"brain_z2" index:"0" ip:"10.0.49.52" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:1070 total:2603310 >  
+
+origin:"tps_watcher" eventType:ValueMetric timestamp:1462573331649155796 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:622592 unit:"count" >  
+
+origin:"tps_watcher" eventType:ValueMetric timestamp:1462573331649110339 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"numGoRoutines" value:56 unit:"count" >  
+
+origin:"tps_watcher" eventType:ValueMetric timestamp:1462573331649146090 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:3.2022e+06 unit:"count" >  
+
+origin:"tps_watcher" eventType:ValueMetric timestamp:1462573331649061230 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"numCPUS" value:1 unit:"count" >  
+
+origin:"tps_watcher" eventType:ValueMetric timestamp:1462573331649181185 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:149402 unit:"count" >  
+
+origin:"tps_watcher" eventType:ValueMetric timestamp:1462573331649162919 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocated" value:3.2022e+06 unit:"count" >  
+
+origin:"tps_watcher" eventType:ValueMetric timestamp:1462573331649169132 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numMallocs" value:2.890689e+06 unit:"count" >  
+
+origin:"tps_watcher" eventType:ValueMetric timestamp:1462573331649175652 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numFrees" value:2.87857e+06 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331682719648 deployment:"cf-walnut-diego" job:"route_emitter_z1" index:"0" ip:"10.0.48.57" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:7 total:41876 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331682595677 deployment:"cf-walnut-diego" job:"route_emitter_z1" index:"0" ip:"10.0.48.57" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:563 total:1954956 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331682686204 deployment:"cf-walnut-diego" job:"route_emitter_z1" index:"0" ip:"10.0.48.57" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:8 total:22092 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331682865304 deployment:"cf-walnut-diego" job:"route_emitter_z1" index:"0" ip:"10.0.48.57" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:8 total:29847 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331682744754 deployment:"cf-walnut-diego" job:"route_emitter_z1" index:"0" ip:"10.0.48.57" counterEvent:<name:"udp.sentMessageCount" delta:23 total:76944 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331682793308 deployment:"cf-walnut-diego" job:"route_emitter_z1" index:"0" ip:"10.0.48.57" counterEvent:<name:"udp.sentByteCount" delta:3495 total:11544318 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331682818039 deployment:"cf-walnut-diego" job:"route_emitter_z1" index:"0" ip:"10.0.48.57" counterEvent:<name:"DopplerForwarder.sentMessages" delta:23 total:76944 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331682841598 deployment:"cf-walnut-diego" job:"route_emitter_z1" index:"0" ip:"10.0.48.57" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:16 total:35068 >  
+
+origin:"stager" eventType:ValueMetric timestamp:1462573331867562556 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numBytesAllocated" value:890448 unit:"count" >  
+
+origin:"stager" eventType:ValueMetric timestamp:1462573331867568426 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numMallocs" value:9.125947e+06 unit:"count" >  
+
+origin:"stager" eventType:ValueMetric timestamp:1462573331867464748 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"numCPUS" value:1 unit:"count" >  
+
+origin:"stager" eventType:ValueMetric timestamp:1462573331867514082 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"numGoRoutines" value:28 unit:"count" >  
+
+origin:"stager" eventType:ValueMetric timestamp:1462573331867546031 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:890448 unit:"count" >  
+
+origin:"stager" eventType:ValueMetric timestamp:1462573331867555558 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:491520 unit:"count" >  
+
+origin:"stager" eventType:ValueMetric timestamp:1462573331867575113 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numFrees" value:9.118835e+06 unit:"count" >  
+
+origin:"stager" eventType:ValueMetric timestamp:1462573331867580608 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:116682 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331884992654 deployment:"cf-walnut" job:"api_z2" index:"1" ip:"10.0.81.2" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:9 total:1046 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331885029654 deployment:"cf-walnut" job:"api_z2" index:"1" ip:"10.0.81.2" counterEvent:<name:"udp.sentByteCount" delta:2183 total:598622 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331884774742 deployment:"cf-walnut" job:"api_z2" index:"1" ip:"10.0.81.2" counterEvent:<name:"udp.sentMessageCount" delta:17 total:4704 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331884863102 deployment:"cf-walnut" job:"api_z2" index:"1" ip:"10.0.81.2" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:8 total:3298 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331884898937 deployment:"cf-walnut" job:"api_z2" index:"1" ip:"10.0.81.2" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:8 total:3251 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331884941598 deployment:"cf-walnut" job:"api_z2" index:"1" ip:"10.0.81.2" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:8 total:3658 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331885117457 deployment:"cf-walnut" job:"api_z2" index:"1" ip:"10.0.81.2" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:450 total:193192 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573331885070473 deployment:"cf-walnut" job:"api_z2" index:"1" ip:"10.0.81.2" counterEvent:<name:"DopplerForwarder.sentMessages" delta:17 total:4704 >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573332020830757 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"numGoRoutines" value:157 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573332020650585 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573332021402392 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"memoryStats.numFrees" value:5.95264066e+08 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573332021485465 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:343633 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573332020995594 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:3.546888e+06 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573332021104747 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:1.048576e+06 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573332021211748 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"memoryStats.numBytesAllocated" value:3.546888e+06 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573332021296423 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"memoryStats.numMallocs" value:5.95324947e+08 unit:"count" >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573332022571884 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"sentMessagesFirehose.FirehosePlugin" delta:204 total:836 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573332022581184 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"udpListener.receivedMessageCount" delta:442 total:2081248 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573332022493291 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"listeners.totalReceivedMessageCount" delta:442 total:2081248 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573332022532440 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"sentMessagesFirehose.datadog-nozzle" delta:442 total:2076394 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573332022549695 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"sentMessagesFirehose.bdb5891d-fbfa-42af-4ead-320a7661d722" delta:442 total:55843 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573332022561072 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"dropsondeUnmarshaller.httpStartStopReceived" delta:8 total:23364 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573332022591076 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"udpListener.receivedByteCount" delta:62770 total:354532855 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573332022633765 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:227 total:1121718 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573332022644367 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"dropsondeUnmarshaller.logMessageTotal" delta:10 total:77175 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573332022601279 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"signatureVerifier.validSignatures" delta:442 total:2081248 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573332022612337 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"dropsondeUnmarshaller.counterEventReceived" delta:197 total:857469 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573332022622992 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"httpServer.receivedMessages" delta:442 total:2081248 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332022861099 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:7 total:34048 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332022889097 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:38903 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332022685164 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" counterEvent:<name:"DopplerForwarder.sentMessages" delta:23 total:85927 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332022767273 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:15 total:47024 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332022795963 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:7 total:34048 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332022831766 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:541 total:2631424 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332022916425 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" counterEvent:<name:"udp.sentMessageCount" delta:23 total:85927 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332022943646 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" counterEvent:<name:"udp.sentByteCount" delta:3155 total:11844425 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332036710276 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"udp.sentByteCount" delta:5533 total:20131867 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332036667925 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:21 total:87457 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332036903117 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"DopplerForwarder.sentMessages" delta:39 total:142248 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332036751975 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:18 total:54791 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332036790660 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:22 total:85506 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332036824328 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:1581 total:6077428 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332036863016 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"udp.sentMessageCount" delta:39 total:142248 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332036941704 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:10 total:41815 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332036981685 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"dropsondeUnmarshaller.counterEventReceived" delta:12 total:43691 >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573332161124867 deployment:"cf-walnut" job:"api_z2" index:"1" ip:"10.0.81.2" valueMetric:<name:"requests.outstanding" value:1 unit:"counter" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573332178692673 deployment:"cf-walnut" job:"api_z2" index:"1" ip:"10.0.81.2" valueMetric:<name:"requests.completed" value:636 unit:"counter" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573332178674884 deployment:"cf-walnut" job:"api_z2" index:"1" ip:"10.0.81.2" valueMetric:<name:"requests.outstanding" value:0 unit:"counter" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573332178743846 deployment:"cf-walnut" job:"api_z2" index:"1" ip:"10.0.81.2" valueMetric:<name:"http_status.2XX" value:619 unit:"counter" >  
+
+origin:"gorouter" eventType:HttpStartStop timestamp:1462573332181488129 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" httpStartStop:<startTimestamp:1462573332160776147 stopTimestamp:1462573332181475560 requestId:<low:7009434343779460583 high:12769865530743713146 > peerType:Client method:GET uri:"http://54.173.79.63, 10.0.161.110/v2/apps/590091e4-0a95-4a48-a70a-c05404e011d6" remoteAddress:"10.0.161.110:10440" userAgent:"go-cli 6.17.0+5d0be0a / linux" statusCode:200 contentLength:1742 instanceId:"188cae5d-da68-4972-7c47-6efbf6636362" >  
+
+origin:"gorouter" eventType:ValueMetric timestamp:1462573332181567317 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" valueMetric:<name:"latency.CloudController" value:20 unit:"ms" >  
+
+origin:"gorouter" eventType:HttpStartStop timestamp:1462573332181687523 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" httpStartStop:<startTimestamp:1462573332160703945 stopTimestamp:1462573332181675095 requestId:<low:7009434343779460583 high:12769865530743713146 > peerType:Server method:GET uri:"http://54.173.79.63/v2/apps/590091e4-0a95-4a48-a70a-c05404e011d6" remoteAddress:"10.0.161.110:10440" userAgent:"go-cli 6.17.0+5d0be0a / linux" statusCode:200 contentLength:1742 >  
+
+origin:"gorouter" eventType:ValueMetric timestamp:1462573332181546968 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" valueMetric:<name:"latency" value:20 unit:"ms" >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573332209560393 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"registry_message.uaa" delta:1 total:9104 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573332209468432 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"registry_message.uaa" delta:1 total:9101 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573332209517350 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"registry_message.uaa" delta:1 total:9102 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573332209539784 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"registry_message.uaa" delta:1 total:9103 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573332214212864 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"registry_message.uaa" delta:1 total:9222 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573332214156781 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"registry_message.uaa" delta:1 total:9221 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573332214262110 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"registry_message.uaa" delta:1 total:9224 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573332214239882 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"registry_message.uaa" delta:1 total:9223 >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573332349855332 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"numGoRoutines" value:66 unit:"count" >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573332349798190 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573332350098257 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numBytesAllocated" value:1.174576e+06 unit:"count" >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573332350055255 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:1.174576e+06 unit:"count" >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573332350084665 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:753664 unit:"count" >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573332350159706 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:167796 unit:"count" >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573332350116026 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numMallocs" value:3.872417e+06 unit:"count" >  
+
+origin:"analyzer" eventType:ValueMetric timestamp:1462573332350143361 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numFrees" value:3.862121e+06 unit:"count" >  
+
+origin:"rep" eventType:LogMessage timestamp:1462573332380188688 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" logMessage:<message:"-----> Downloading Open Jdk JRE 1.8.0_91-unlimited-crypto from https://download.run.pivotal.io/openjdk/trusty/x86_64/openjdk-1.8.0_91-unlimited-crypto.tar.gz (1.8s)" message_type:OUT timestamp:1462573332380185161 app_id:"ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" source_type:"STG" source_instance:"0" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332395671379 deployment:"cf-walnut-diego" job:"cell_z2" index:"1" ip:"10.0.49.55" counterEvent:<name:"udp.sentByteCount" delta:4180 total:15856021 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332395704068 deployment:"cf-walnut-diego" job:"cell_z2" index:"1" ip:"10.0.49.55" counterEvent:<name:"DopplerForwarder.sentMessages" delta:29 total:109071 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332395479651 deployment:"cf-walnut-diego" job:"cell_z2" index:"1" ip:"10.0.49.55" counterEvent:<name:"udp.sentMessageCount" delta:29 total:109071 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332395556796 deployment:"cf-walnut-diego" job:"cell_z2" index:"1" ip:"10.0.49.55" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:18 total:69303 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332395594148 deployment:"cf-walnut-diego" job:"cell_z2" index:"1" ip:"10.0.49.55" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:8 total:46750 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332395635692 deployment:"cf-walnut-diego" job:"cell_z2" index:"1" ip:"10.0.49.55" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:11 total:39768 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332395737889 deployment:"cf-walnut-diego" job:"cell_z2" index:"1" ip:"10.0.49.55" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:11 total:56547 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332395845336 deployment:"cf-walnut-diego" job:"cell_z2" index:"1" ip:"10.0.49.55" counterEvent:<name:"dropsondeUnmarshaller.counterEventReceived" delta:1 total:220 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332395771559 deployment:"cf-walnut-diego" job:"cell_z2" index:"1" ip:"10.0.49.55" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:788 total:4190440 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332395804617 deployment:"cf-walnut-diego" job:"cell_z2" index:"1" ip:"10.0.49.55" counterEvent:<name:"dropsondeUnmarshaller.logMessageTotal" delta:2 total:9369 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332400533405 deployment:"cf-walnut" job:"consul_z1" index:"0" ip:"10.0.16.37" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:4 total:21072 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332400736093 deployment:"cf-walnut" job:"consul_z1" index:"0" ip:"10.0.16.37" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:8 total:12976 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332400618333 deployment:"cf-walnut" job:"consul_z1" index:"0" ip:"10.0.16.37" counterEvent:<name:"udp.sentMessageCount" delta:12 total:34048 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332400656474 deployment:"cf-walnut" job:"consul_z1" index:"0" ip:"10.0.16.37" counterEvent:<name:"udp.sentByteCount" delta:1633 total:4571117 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332400712154 deployment:"cf-walnut" job:"consul_z1" index:"0" ip:"10.0.16.37" counterEvent:<name:"DopplerForwarder.sentMessages" delta:12 total:34048 >  
+
+origin:"evacuator" eventType:ValueMetric timestamp:1462573332587648393 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"numGoRoutines" value:26 unit:"count" >  
+
+origin:"evacuator" eventType:ValueMetric timestamp:1462573332587591039 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"evacuator" eventType:ValueMetric timestamp:1462573332588001539 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numFrees" value:2.501017e+06 unit:"count" >  
+
+origin:"evacuator" eventType:ValueMetric timestamp:1462573332588021233 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:201395 unit:"count" >  
+
+origin:"evacuator" eventType:ValueMetric timestamp:1462573332587917417 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:794104 unit:"count" >  
+
+origin:"evacuator" eventType:ValueMetric timestamp:1462573332587946078 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:557056 unit:"count" >  
+
+origin:"evacuator" eventType:ValueMetric timestamp:1462573332587964504 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numBytesAllocated" value:794104 unit:"count" >  
+
+origin:"evacuator" eventType:ValueMetric timestamp:1462573332587983357 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numMallocs" value:2.508809e+06 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332597906760 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" counterEvent:<name:"udp.sentByteCount" delta:3999 total:11712144 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332597937583 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" counterEvent:<name:"DopplerForwarder.sentMessages" delta:28 total:81875 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332597697546 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:1078 total:2621696 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332597803074 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:16 total:38912 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332597839426 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:4 total:29987 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332597878079 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" counterEvent:<name:"udp.sentMessageCount" delta:28 total:81875 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332597962018 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:24 total:51888 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332597985764 deployment:"cf-walnut-diego" job:"access_z1" index:"0" ip:"10.0.48.58" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:16 total:38912 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332771222360 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:14 total:37627 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332771243139 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" counterEvent:<name:"udp.sentMessageCount" delta:40 total:95383 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332771067668 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" counterEvent:<name:"DopplerForwarder.sentMessages" delta:40 total:95383 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332771145571 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:26 total:57756 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332771179358 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:23 total:48118 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332771205336 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" counterEvent:<name:"dropsondeUnmarshaller.counterEventReceived" delta:5 total:3338 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332771259430 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" counterEvent:<name:"udp.sentByteCount" delta:5660 total:13564885 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332771292267 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:18 total:44780 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332771276359 deployment:"cf-walnut-diego" job:"brain_z1" index:"0" ip:"10.0.48.52" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:1475 total:3206154 >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573332829406303 deployment:"cf-walnut" job:"etcd_z1" index:"1" ip:"10.0.16.35" valueMetric:<name:"logSenderTotalMessagesRead" value:0 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573332829597614 deployment:"cf-walnut" job:"etcd_z1" index:"1" ip:"10.0.16.35" valueMetric:<name:"numGoRoutines" value:27 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573332829576515 deployment:"cf-walnut" job:"etcd_z1" index:"1" ip:"10.0.16.35" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573332829837741 deployment:"cf-walnut" job:"etcd_z1" index:"1" ip:"10.0.16.35" valueMetric:<name:"memoryStats.numFrees" value:2.250418e+06 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573332829769467 deployment:"cf-walnut" job:"etcd_z1" index:"1" ip:"10.0.16.35" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:1.281856e+06 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573332829798611 deployment:"cf-walnut" job:"etcd_z1" index:"1" ip:"10.0.16.35" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:524288 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573332829813030 deployment:"cf-walnut" job:"etcd_z1" index:"1" ip:"10.0.16.35" valueMetric:<name:"memoryStats.numBytesAllocated" value:1.281856e+06 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573332829825662 deployment:"cf-walnut" job:"etcd_z1" index:"1" ip:"10.0.16.35" valueMetric:<name:"memoryStats.numMallocs" value:2.258134e+06 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573332829849322 deployment:"cf-walnut" job:"etcd_z1" index:"1" ip:"10.0.16.35" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:254832 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332818758036 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" counterEvent:<name:"DopplerForwarder.sentMessages" delta:27 total:104945 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332818668683 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:10 total:46675 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332818722620 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:9 total:39886 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332818930139 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:18 total:65059 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332818795402 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:10 total:52139 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332818834454 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:683 total:3632302 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332818900135 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" counterEvent:<name:"udp.sentByteCount" delta:3856 total:15015389 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332818869686 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" counterEvent:<name:"udp.sentMessageCount" delta:27 total:104945 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573332916703771 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"registry_message.CloudController" delta:1 total:919 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573332914956699 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"registry_message.CloudController" delta:1 total:907 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332911426776 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z2" index:"0" ip:"10.0.81.6" counterEvent:<name:"udp.sentMessageCount" delta:16 total:64019 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332911272264 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z2" index:"0" ip:"10.0.81.6" counterEvent:<name:"udp.sentByteCount" delta:2567 total:10542308 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332911336892 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z2" index:"0" ip:"10.0.81.6" counterEvent:<name:"DopplerForwarder.sentMessages" delta:16 total:64019 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332911365427 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z2" index:"0" ip:"10.0.81.6" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:8 total:33621 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573332911392368 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z2" index:"0" ip:"10.0.81.6" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:30398 >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573332917384217 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numBytesAllocated" value:3.963752e+06 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573332917378006 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:524288 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573332917288920 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"numCPUS" value:1 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573332917335956 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"numGoRoutines" value:28 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573332917368153 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:3.963752e+06 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573332917409267 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:128278 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573332917391077 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numMallocs" value:1.8036153e+07 unit:"count" >  
+
+origin:"nsync_listener" eventType:ValueMetric timestamp:1462573332917403302 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numFrees" value:1.800742e+07 unit:"count" >  
+
+origin:"cc_uploader" eventType:ValueMetric timestamp:1462573333068400893 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocated" value:1.07824e+06 unit:"count" >  
+
+origin:"cc_uploader" eventType:ValueMetric timestamp:1462573333068410168 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numMallocs" value:9.597689e+06 unit:"count" >  
+
+origin:"cc_uploader" eventType:ValueMetric timestamp:1462573333068298364 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"numCPUS" value:1 unit:"count" >  
+
+origin:"cc_uploader" eventType:ValueMetric timestamp:1462573333068346283 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"numGoRoutines" value:38 unit:"count" >  
+
+origin:"cc_uploader" eventType:ValueMetric timestamp:1462573333068376778 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:1.07824e+06 unit:"count" >  
+
+origin:"cc_uploader" eventType:ValueMetric timestamp:1462573333068391076 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:622592 unit:"count" >  
+
+origin:"cc_uploader" eventType:ValueMetric timestamp:1462573333068419450 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.numFrees" value:9.587966e+06 unit:"count" >  
+
+origin:"cc_uploader" eventType:ValueMetric timestamp:1462573333068443684 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:124546 unit:"count" >  
+
+origin:"syslog_drain_binder" eventType:ValueMetric timestamp:1462573333067368471 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"numGoRoutines" value:20 unit:"count" >  
+
+origin:"syslog_drain_binder" eventType:ValueMetric timestamp:1462573333067321048 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"syslog_drain_binder" eventType:ValueMetric timestamp:1462573333067637282 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"memoryStats.numFrees" value:3.617896e+06 unit:"count" >  
+
+origin:"syslog_drain_binder" eventType:ValueMetric timestamp:1462573333067648617 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:3.160367e+06 unit:"count" >  
+
+origin:"syslog_drain_binder" eventType:ValueMetric timestamp:1462573333067574387 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:1.310504e+06 unit:"count" >  
+
+origin:"syslog_drain_binder" eventType:ValueMetric timestamp:1462573333067598312 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:557056 unit:"count" >  
+
+origin:"syslog_drain_binder" eventType:ValueMetric timestamp:1462573333067612494 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"memoryStats.numBytesAllocated" value:1.310504e+06 unit:"count" >  
+
+origin:"syslog_drain_binder" eventType:ValueMetric timestamp:1462573333067624290 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"memoryStats.numMallocs" value:3.630106e+06 unit:"count" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573333091051864 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" valueMetric:<name:"requests.outstanding" value:1 unit:"counter" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573333095570343 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" valueMetric:<name:"requests.completed" value:680 unit:"counter" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573333095553773 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" valueMetric:<name:"requests.outstanding" value:0 unit:"counter" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573333095617279 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" valueMetric:<name:"http_status.2XX" value:665 unit:"counter" >  
+
+origin:"syslog_drain_binder" eventType:ValueMetric timestamp:1462573333096831307 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" valueMetric:<name:"totalDrains" value:0 unit:"drains" >  
+
+origin:"syslog_drain_binder" eventType:CounterEvent timestamp:1462573333096806176 deployment:"cf-walnut" job:"doppler_z1" index:"0" ip:"10.0.17.6" counterEvent:<name:"pollCount" delta:1 total:552 >  
+
+origin:"gorouter" eventType:HttpStartStop timestamp:1462573333098650550 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" httpStartStop:<startTimestamp:1462573333089669371 stopTimestamp:1462573333098640835 requestId:<low:4415520870411015092 high:3349523994348167779 > peerType:Server method:GET uri:"http://54.173.79.63/v2/syslog_drain_urls" remoteAddress:"10.0.161.110:10440" userAgent:"Go-http-client/1.1" statusCode:200 contentLength:42 >  
+
+origin:"gorouter" eventType:HttpStartStop timestamp:1462573333098152731 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" httpStartStop:<startTimestamp:1462573333089737667 stopTimestamp:1462573333098090291 requestId:<low:4415520870411015092 high:3349523994348167779 > peerType:Client method:GET uri:"http://54.173.79.63, 10.0.161.110/v2/syslog_drain_urls" remoteAddress:"10.0.161.110:10440" userAgent:"Go-http-client/1.1" statusCode:200 contentLength:42 instanceId:"64ac2a50-8608-4055-6ccc-9e86830a1c5c" >  
+
+origin:"gorouter" eventType:ValueMetric timestamp:1462573333098337364 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" valueMetric:<name:"latency" value:8 unit:"ms" >  
+
+origin:"gorouter" eventType:ValueMetric timestamp:1462573333098434729 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" valueMetric:<name:"latency.CloudController" value:8 unit:"ms" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573333104838658 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"memoryStats.numBytesAllocated" value:998608 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573333104847776 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"memoryStats.numMallocs" value:8.984263e+06 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573333104815909 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:998608 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573333104829328 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:491520 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573333104731936 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"numCPUS" value:1 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573333104785130 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"numGoRoutines" value:24 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573333104863534 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"memoryStats.numFrees" value:8.973054e+06 unit:"count" >  
+
+origin:"file_server" eventType:ValueMetric timestamp:1462573333104888412 deployment:"cf-walnut-diego" job:"access_z2" index:"0" ip:"10.0.49.58" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:83940 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573333129657971 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z2" index:"0" ip:"10.0.81.6" valueMetric:<name:"numGoRoutines" value:54 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573333129480593 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z2" index:"0" ip:"10.0.81.6" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573333129788075 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z2" index:"0" ip:"10.0.81.6" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:2.338288e+06 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573333129895046 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z2" index:"0" ip:"10.0.81.6" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:688128 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573333129968791 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z2" index:"0" ip:"10.0.81.6" valueMetric:<name:"memoryStats.numBytesAllocated" value:2.338288e+06 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573333130078919 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z2" index:"0" ip:"10.0.81.6" valueMetric:<name:"memoryStats.numMallocs" value:2.3667268e+07 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573333130202066 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z2" index:"0" ip:"10.0.81.6" valueMetric:<name:"memoryStats.numFrees" value:2.3657217e+07 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573333130432139 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z2" index:"0" ip:"10.0.81.6" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:505899 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333211688381 deployment:"cf-walnut-diego" job:"route_emitter_z2" index:"0" ip:"10.0.49.57" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:8 total:32432 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333211661470 deployment:"cf-walnut-diego" job:"route_emitter_z2" index:"0" ip:"10.0.49.57" counterEvent:<name:"DopplerForwarder.sentMessages" delta:16 total:62444 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333211523648 deployment:"cf-walnut-diego" job:"route_emitter_z2" index:"0" ip:"10.0.49.57" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:30012 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333211607678 deployment:"cf-walnut-diego" job:"route_emitter_z2" index:"0" ip:"10.0.49.57" counterEvent:<name:"udp.sentMessageCount" delta:16 total:62444 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333211642635 deployment:"cf-walnut-diego" job:"route_emitter_z2" index:"0" ip:"10.0.49.57" counterEvent:<name:"udp.sentByteCount" delta:2423 total:9417816 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333212990096 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" counterEvent:<name:"DopplerForwarder.sentMessages" delta:17 total:116819 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333212896630 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" counterEvent:<name:"udp.sentMessageCount" delta:17 total:116819 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333213135325 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:8 total:83830 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333213060692 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:9 total:32989 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333213095602 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" counterEvent:<name:"udp.sentByteCount" delta:2433 total:36775912 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573333215226737 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"responses" delta:6 total:3894 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573333215152446 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"total_requests" delta:6 total:3962 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573333215201242 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"requests.CloudController" delta:5 total:3146 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573333215215395 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"responses.2xx" delta:6 total:3880 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573333215236881 deployment:"cf-walnut" job:"router_z2" index:"0" ip:"10.0.81.7" counterEvent:<name:"requests.uaa" delta:1 total:434 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333219131471 deployment:"cf-walnut-diego" job:"database_z2" index:"0" ip:"10.0.49.51" counterEvent:<name:"DopplerForwarder.sentMessages" delta:8 total:62425 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333219003124 deployment:"cf-walnut-diego" job:"database_z2" index:"0" ip:"10.0.49.51" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:29993 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333219071719 deployment:"cf-walnut-diego" job:"database_z2" index:"0" ip:"10.0.49.51" counterEvent:<name:"udp.sentMessageCount" delta:8 total:62425 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333219106027 deployment:"cf-walnut-diego" job:"database_z2" index:"0" ip:"10.0.49.51" counterEvent:<name:"udp.sentByteCount" delta:1172 total:8908081 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333276842221 deployment:"cf-walnut" job:"nats_z2" index:"0" ip:"10.0.80.11" counterEvent:<name:"udp.sentByteCount" delta:657 total:4503643 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333276696616 deployment:"cf-walnut" job:"nats_z2" index:"0" ip:"10.0.80.11" counterEvent:<name:"DopplerForwarder.sentMessages" delta:5 total:34053 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333276763133 deployment:"cf-walnut" job:"nats_z2" index:"0" ip:"10.0.80.11" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:5 total:21077 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333276789961 deployment:"cf-walnut" job:"nats_z2" index:"0" ip:"10.0.80.11" counterEvent:<name:"udp.sentMessageCount" delta:5 total:34053 >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333303684590 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"logSenderTotalMessagesRead" value:0 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333304263505 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"numGoRoutines" value:42 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333304223120 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333304470196 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"memoryStats.numMallocs" value:3.7674221e+07 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333304403932 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:4.00896e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333304433800 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:1.277952e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333304452573 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"memoryStats.numBytesAllocated" value:4.00896e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333304501469 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:367980 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333293642018 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"logSenderTotalMessagesRead" value:0 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333304486186 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"memoryStats.numFrees" value:3.763629e+07 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333293960657 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333293991066 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"numGoRoutines" value:20 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333294275543 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:1.015808e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333294243235 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:4.236384e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333294362808 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:893587 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333294298134 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"memoryStats.numBytesAllocated" value:4.236384e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333294320313 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"memoryStats.numMallocs" value:3.5058985e+07 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573333294341517 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"memoryStats.numFrees" value:3.50131e+07 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333458026601 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" counterEvent:<name:"DopplerForwarder.sentMessages" delta:15 total:85941 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333457999257 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" counterEvent:<name:"udp.sentByteCount" delta:2080 total:11846362 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333457865937 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:7 total:47030 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333457942781 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:38911 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333458113916 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:7 total:34054 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333457972162 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" counterEvent:<name:"udp.sentMessageCount" delta:15 total:85941 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333458061656 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:7 total:34054 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333458088692 deployment:"cf-walnut" job:"uaa_z1" index:"0" ip:"10.0.17.0" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:541 total:2631889 >  
+
+origin:"rep" eventType:LogMessage timestamp:1462573333471886072 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" logMessage:<message:"       Expanding Open Jdk JRE to .java-buildpack/open_jdk_jre (1.0s)" message_type:OUT timestamp:1462573333471882286 app_id:"ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" source_type:"STG" source_instance:"0" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333515760834 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:2829 total:8420274 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333515675705 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" counterEvent:<name:"udp.sentMessageCount" delta:49 total:174698 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333515740958 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" counterEvent:<name:"udp.sentByteCount" delta:7251 total:25799263 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333515777571 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:40 total:121869 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333515885536 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" counterEvent:<name:"dropsondeUnmarshaller.counterEventReceived" delta:1 total:607 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333515869400 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:41 total:122476 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333515797225 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:40 total:134845 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333515835510 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:9 total:39854 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333515854478 deployment:"cf-walnut-diego" job:"cc_bridge_z1" index:"0" ip:"10.0.48.56" counterEvent:<name:"DopplerForwarder.sentMessages" delta:49 total:174698 >  
+
+origin:"rep" eventType:LogMessage timestamp:1462573333534945307 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" logMessage:<message:"-----> Downloading Open JDK Like Memory Calculator 2.0.2_RELEASE from https://download.run.pivotal.io/memory-calculator/trusty/x86_64/memory-calculator-2.0.2_RELEASE.tar.gz (0.0s)" message_type:OUT timestamp:1462573333534942076 app_id:"ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" source_type:"STG" source_instance:"0" >  
+
+origin:"rep" eventType:LogMessage timestamp:1462573333566564767 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" logMessage:<message:"       Memory Settings: -XX:MaxMetaspaceSize=64M -Xss995K -Xms382293K -XX:MetaspaceSize=64M -Xmx382293K" message_type:OUT timestamp:1462573333566562504 app_id:"ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" source_type:"STG" source_instance:"0" >  
+
+origin:"shredder" eventType:ValueMetric timestamp:1462573333645170061 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"numGoRoutines" value:24 unit:"count" >  
+
+origin:"shredder" eventType:ValueMetric timestamp:1462573333645112106 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"shredder" eventType:ValueMetric timestamp:1462573333645515890 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:416308 unit:"count" >  
+
+origin:"shredder" eventType:ValueMetric timestamp:1462573333645448422 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:589824 unit:"count" >  
+
+origin:"shredder" eventType:ValueMetric timestamp:1462573333645483280 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numMallocs" value:2.507699e+06 unit:"count" >  
+
+origin:"shredder" eventType:ValueMetric timestamp:1462573333645501541 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" valueMetric:<name:"memoryStats.numFrees" value:2.499489e+06 unit:"count" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573333915938220 deployment:"cf-walnut" job:"api_z1" index:"0" ip:"10.0.17.1" valueMetric:<name:"requests.outstanding" value:1 unit:"counter" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573333931069737 deployment:"cf-walnut" job:"api_z1" index:"0" ip:"10.0.17.1" valueMetric:<name:"requests.completed" value:699 unit:"counter" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573333931052102 deployment:"cf-walnut" job:"api_z1" index:"0" ip:"10.0.17.1" valueMetric:<name:"requests.outstanding" value:0 unit:"counter" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573333931119377 deployment:"cf-walnut" job:"api_z1" index:"0" ip:"10.0.17.1" valueMetric:<name:"http_status.2XX" value:693 unit:"counter" >  
+
+origin:"gorouter" eventType:HttpStartStop timestamp:1462573333929649059 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" httpStartStop:<startTimestamp:1462573333910582009 stopTimestamp:1462573333929635205 requestId:<low:13135057731543506711 high:2026775717487481455 > peerType:Client method:GET uri:"http://54.173.79.63, 10.0.160.57/v2/apps/ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" remoteAddress:"10.0.160.57:21322" userAgent:"go-cli 6.17.0+5d0be0a / linux" statusCode:200 contentLength:1780 instanceId:"fb29c81f-b086-4552-4f9e-6bab4d76f5a9" >  
+
+origin:"gorouter" eventType:ValueMetric timestamp:1462573333929718805 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" valueMetric:<name:"latency" value:19 unit:"ms" >  
+
+origin:"gorouter" eventType:ValueMetric timestamp:1462573333929751395 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" valueMetric:<name:"latency.CloudController" value:19 unit:"ms" >  
+
+origin:"gorouter" eventType:HttpStartStop timestamp:1462573333929856334 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" httpStartStop:<startTimestamp:1462573333910518362 stopTimestamp:1462573333929844319 requestId:<low:13135057731543506711 high:2026775717487481455 > peerType:Server method:GET uri:"http://54.173.79.63/v2/apps/ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" remoteAddress:"10.0.160.57:21322" userAgent:"go-cli 6.17.0+5d0be0a / linux" statusCode:200 contentLength:1780 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333933032872 deployment:"cf-walnut" job:"api_z1" index:"0" ip:"10.0.17.1" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:4 total:3796 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333933121217 deployment:"cf-walnut" job:"api_z1" index:"0" ip:"10.0.17.1" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:1421 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333933202716 deployment:"cf-walnut" job:"api_z1" index:"0" ip:"10.0.17.1" counterEvent:<name:"udp.sentByteCount" delta:1558 total:735236 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333933161152 deployment:"cf-walnut" job:"api_z1" index:"0" ip:"10.0.17.1" counterEvent:<name:"udp.sentMessageCount" delta:12 total:5771 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333933326658 deployment:"cf-walnut" job:"api_z1" index:"0" ip:"10.0.17.1" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:225 total:224625 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333933245663 deployment:"cf-walnut" job:"api_z1" index:"0" ip:"10.0.17.1" counterEvent:<name:"DopplerForwarder.sentMessages" delta:12 total:5771 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333933287337 deployment:"cf-walnut" job:"api_z1" index:"0" ip:"10.0.17.1" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:4 total:3846 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333933070387 deployment:"cf-walnut" job:"api_z1" index:"0" ip:"10.0.17.1" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:4 total:4350 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333963373872 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:32 total:97280 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333963397141 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:2108 total:6398592 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333963159793 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" counterEvent:<name:"udp.sentMessageCount" delta:48 total:149159 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333963275178 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" counterEvent:<name:"udp.sentByteCount" delta:6516 total:20239877 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333963324414 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" counterEvent:<name:"DopplerForwarder.sentMessages" delta:48 total:149159 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333963347014 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:40 total:110256 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333963422035 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:32 total:97280 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573333963444795 deployment:"cf-walnut" job:"hm9000_z2" index:"0" ip:"10.0.81.4" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:38903 >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573333982753695 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numBytesAllocated" value:562592 unit:"count" >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573333982777355 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numMallocs" value:5.058298e+06 unit:"count" >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573333982620448 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"numCPUS" value:1 unit:"count" >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573333982673843 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"numGoRoutines" value:21 unit:"count" >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573333982705982 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:562592 unit:"count" >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573333982742344 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:491520 unit:"count" >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573333982789249 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numFrees" value:5.052741e+06 unit:"count" >  
+
+origin:"nsync_bulker" eventType:ValueMetric timestamp:1462573333982799055 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:108068 unit:"count" >  
+
+origin:"rep" eventType:LogMessage timestamp:1462573334026592597 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" logMessage:<message:"-----> Downloading Tomcat Instance 8.0.33 from https://download.run.pivotal.io/tomcat/tomcat-8.0.33.tar.gz (0.4s)" message_type:OUT timestamp:1462573334026588699 app_id:"ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" source_type:"STG" source_instance:"0" >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573334072424940 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"total_requests" delta:1 total:4160 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573334072672666 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"responses.2xx" delta:1 total:4067 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573334072580319 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"requests.CloudController" delta:1 total:3319 >  
+
+origin:"gorouter" eventType:CounterEvent timestamp:1462573334072750322 deployment:"cf-walnut" job:"router_z1" index:"0" ip:"10.0.17.8" counterEvent:<name:"responses" delta:1 total:4079 >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573334117284437 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:557056 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573334117299643 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" valueMetric:<name:"memoryStats.numBytesAllocated" value:1.211928e+06 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573334116902387 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" valueMetric:<name:"logSenderTotalMessagesRead" value:0 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573334116996359 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573334117016531 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" valueMetric:<name:"numGoRoutines" value:27 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573334117257267 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:1.211928e+06 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573334117311828 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" valueMetric:<name:"memoryStats.numMallocs" value:2.282515e+06 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573334117325207 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" valueMetric:<name:"memoryStats.numFrees" value:2.276023e+06 unit:"count" >  
+
+origin:"etcd" eventType:ValueMetric timestamp:1462573334117350491 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:126122 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334125768046 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334126007403 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"memoryStats.numMallocs" value:2.4047409e+07 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334126022403 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"memoryStats.numFrees" value:2.4022367e+07 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334125848346 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"numGoRoutines" value:277 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334125950335 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:3.197896e+06 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334125977402 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:1.769472e+06 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334125993900 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"memoryStats.numBytesAllocated" value:3.197896e+06 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334126036535 deployment:"cf-walnut-diego" job:"cell_z2" index:"0" ip:"10.0.49.53" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:571827 unit:"count" >  
+
+origin:"rep" eventType:LogMessage timestamp:1462573334143721762 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" logMessage:<message:"       Expanding Tomcat Instance to .java-buildpack/tomcat (0.1s)" message_type:OUT timestamp:1462573334143718015 app_id:"ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" source_type:"STG" source_instance:"0" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573334158591072 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"logSenderTotalMessagesRead" value:0 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573334158916570 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573334158954367 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"numGoRoutines" value:39 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573334159181172 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"memoryStats.numMallocs" value:3.9714498e+07 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573334159079052 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:3.352264e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573334159154258 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:1.212416e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573334159171356 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"memoryStats.numBytesAllocated" value:3.352264e+06 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573334159199762 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:647045 unit:"count" >  
+
+origin:"garden-linux" eventType:ValueMetric timestamp:1462573334159191452 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"memoryStats.numFrees" value:3.9681664e+07 unit:"count" >  
+
+origin:"rep" eventType:LogMessage timestamp:1462573334175150561 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" logMessage:<message:"-----> Downloading Tomcat Lifecycle Support 2.5.0_RELEASE from https://download.run.pivotal.io/tomcat-lifecycle-support/tomcat-lifecycle-support-2.5.0_RELEASE.jar (0.0s)" message_type:OUT timestamp:1462573334175148437 app_id:"ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" source_type:"STG" source_instance:"0" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334175337507 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:5 total:32019 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334175361867 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" counterEvent:<name:"udp.sentMessageCount" delta:14 total:79538 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334175168474 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:9 total:35758 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334175202411 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:555 total:2164611 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334175255981 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:9 total:33328 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334175281048 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:9 total:46304 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334175403552 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" counterEvent:<name:"udp.sentByteCount" delta:1825 total:10494411 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334175441185 deployment:"cf-walnut" job:"etcd_z2" index:"0" ip:"10.0.80.19" counterEvent:<name:"DopplerForwarder.sentMessages" delta:14 total:79538 >  
+
+origin:"rep" eventType:LogMessage timestamp:1462573334197886379 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" logMessage:<message:"-----> Downloading Tomcat Logging Support 2.5.0_RELEASE from https://download.run.pivotal.io/tomcat-logging-support/tomcat-logging-support-2.5.0_RELEASE.jar (0.0s)" message_type:OUT timestamp:1462573334197884592 app_id:"ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" source_type:"STG" source_instance:"0" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334211172912 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"numGoRoutines" value:293 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334211099543 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334211551568 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"memoryStats.numFrees" value:2.6372367e+07 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334211566519 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:272097 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334211463213 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:2.686024e+06 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334211498854 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:1.769472e+06 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334211518136 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"memoryStats.numBytesAllocated" value:2.686024e+06 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334211535430 deployment:"cf-walnut-diego" job:"cell_z1" index:"1" ip:"10.0.48.54" valueMetric:<name:"memoryStats.numMallocs" value:2.6394073e+07 unit:"count" >  
+
+origin:"rep" eventType:LogMessage timestamp:1462573334220611315 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" logMessage:<message:"-----> Downloading Tomcat Access Logging Support 2.5.0_RELEASE from https://download.run.pivotal.io/tomcat-access-logging-support/tomcat-access-logging-support-2.5.0_RELEASE.jar (0.0s)" message_type:OUT timestamp:1462573334220609320 app_id:"ddd2a0d0-02e1-42c7-b8a6-7f4b58096d91" source_type:"STG" source_instance:"0" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334236650484 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"dropsondeUnmarshaller.counterEventReceived" delta:12 total:43601 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334236680364 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:21 total:84816 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334236410583 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"udp.sentMessageCount" delta:21 total:140112 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334236540866 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"udp.sentByteCount" delta:2997 total:19800792 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334236586071 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"DopplerForwarder.sentMessages" delta:21 total:140112 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334236619060 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:852 total:6086915 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334236712563 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:12 total:85921 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334238442339 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:24 total:117136 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334238459753 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:1633 total:8001403 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334238304122 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:39575 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334238370553 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"udp.sentMessageCount" delta:32 total:169311 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334238402687 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"udp.sentByteCount" delta:4710 total:24950472 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334238419972 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"DopplerForwarder.sentMessages" delta:32 total:169311 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334238480202 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:24 total:116760 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334238497050 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:24 total:129736 >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334292073522 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"numGoRoutines" value:250 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334292034398 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334292302879 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:2.518872e+06 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334292600981 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:759041 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334292537045 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"memoryStats.numBytesAllocated" value:2.518872e+06 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334292565454 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"memoryStats.numMallocs" value:2.3068074e+07 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334292584447 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"memoryStats.numFrees" value:2.3047851e+07 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334292444953 deployment:"cf-walnut-diego" job:"cell_z1" index:"2" ip:"10.0.48.55" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:1.572864e+06 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573334361003621 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573334361586519 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:1.048576e+06 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573334361277775 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" valueMetric:<name:"numGoRoutines" value:159 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573334361444400 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:3.51096e+06 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573334362105319 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:238947 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573334361692435 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" valueMetric:<name:"memoryStats.numBytesAllocated" value:3.51096e+06 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573334361798522 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" valueMetric:<name:"memoryStats.numMallocs" value:5.06291298e+08 unit:"count" >  
+
+origin:"DopplerServer" eventType:ValueMetric timestamp:1462573334361954951 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" valueMetric:<name:"memoryStats.numFrees" value:5.06226134e+08 unit:"count" >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573334364631711 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"dropsondeUnmarshaller.counterEventReceived" delta:145 total:717682 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573334364575243 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:156 total:983105 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573334364602964 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"dropsondeUnmarshaller.httpStartStopReceived" delta:4 total:21869 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573334364618751 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"udpListener.receivedMessageCount" delta:305 total:1766456 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573334364690048 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"sentMessagesFirehose.bdb5891d-fbfa-42af-4ead-320a7661d722" delta:305 total:38328 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573334364703471 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"listeners.totalReceivedMessageCount" delta:305 total:1766456 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573334364642301 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"signatureVerifier.validSignatures" delta:305 total:1766456 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573334364655121 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"httpServer.receivedMessages" delta:305 total:1766456 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573334364666561 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"sentMessagesFirehose.FirehosePlugin" delta:305 total:940 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573334364678641 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"sentMessagesFirehose.datadog-nozzle" delta:305 total:1762515 >  
+
+origin:"DopplerServer" eventType:CounterEvent timestamp:1462573334364714780 deployment:"cf-walnut" job:"doppler_z2" index:"0" ip:"10.0.81.5" counterEvent:<name:"udpListener.receivedByteCount" delta:42988 total:268516605 >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573334462927318 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"numGoRoutines" value:21 unit:"count" >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573334462868999 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573334463248496 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numFrees" value:1.245159e+06 unit:"count" >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573334463191009 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:602592 unit:"count" >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573334463213568 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:524288 unit:"count" >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573334463225997 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numBytesAllocated" value:602592 unit:"count" >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573334463237393 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.numMallocs" value:1.251306e+06 unit:"count" >  
+
+origin:"apiserver" eventType:ValueMetric timestamp:1462573334463259910 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:115350 unit:"count" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334462733772 deployment:"cf-walnut" job:"nats_z1" index:"0" ip:"10.0.16.11" counterEvent:<name:"udp.sentMessageCount" delta:5 total:34053 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334462907345 deployment:"cf-walnut" job:"nats_z1" index:"0" ip:"10.0.16.11" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:5 total:21077 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334462821349 deployment:"cf-walnut" job:"nats_z1" index:"0" ip:"10.0.16.11" counterEvent:<name:"udp.sentByteCount" delta:657 total:4503643 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334462848568 deployment:"cf-walnut" job:"nats_z1" index:"0" ip:"10.0.16.11" counterEvent:<name:"DopplerForwarder.sentMessages" delta:5 total:34053 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334521849919 deployment:"cf-walnut" job:"api_worker_z2" index:"0" ip:"10.0.81.3" counterEvent:<name:"DopplerForwarder.sentMessages" delta:5 total:34053 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334521736801 deployment:"cf-walnut" job:"api_worker_z2" index:"0" ip:"10.0.81.3" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:5 total:21077 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334521794614 deployment:"cf-walnut" job:"api_worker_z2" index:"0" ip:"10.0.81.3" counterEvent:<name:"udp.sentMessageCount" delta:5 total:34053 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334521822778 deployment:"cf-walnut" job:"api_worker_z2" index:"0" ip:"10.0.81.3" counterEvent:<name:"udp.sentByteCount" delta:682 total:4673992 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334558157950 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:17 total:46761 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334558185702 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:4 total:32824 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334557929739 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" counterEvent:<name:"DopplerForwarder.sentMessages" delta:29 total:101765 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334558039323 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:25 total:68941 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334558090738 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:17 total:56254 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334558128663 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:1110 total:4224468 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334558212390 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" counterEvent:<name:"udp.sentMessageCount" delta:29 total:101765 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334558241567 deployment:"cf-walnut-diego" job:"cell_z2" index:"2" ip:"10.0.49.54" counterEvent:<name:"udp.sentByteCount" delta:4049 total:14816598 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334639878302 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"udp.sentByteCount" delta:1558 total:650827 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334639917079 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"DopplerForwarder.sentMessages" delta:12 total:5125 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334639665310 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:4 total:3526 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334639739771 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:4 total:3969 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334639795629 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:8 total:1156 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334639838706 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"udp.sentMessageCount" delta:12 total:5125 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334639955832 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:4 total:3569 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334639997606 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:225 total:207547 >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573334640707133 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:524288 unit:"count" >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573334640745385 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" valueMetric:<name:"memoryStats.numBytesAllocated" value:1.34376e+06 unit:"count" >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573334640567938 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573334640605598 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" valueMetric:<name:"numGoRoutines" value:25 unit:"count" >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573334640679900 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:1.34376e+06 unit:"count" >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573334640787817 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" valueMetric:<name:"memoryStats.numMallocs" value:294404 unit:"count" >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573334640860888 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:105284 unit:"count" >  
+
+origin:"MetronAgent" eventType:ValueMetric timestamp:1462573334640824324 deployment:"cf-walnut" job:"api_z2" index:"0" ip:"10.0.81.1" valueMetric:<name:"memoryStats.numFrees" value:275816 unit:"count" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573334752902016 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" valueMetric:<name:"audit_service.principal_authentication_failure_count" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573334752923492 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" valueMetric:<name:"audit_service.user_password_failures" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573334752683325 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" valueMetric:<name:"audit_service.principal_not_found_count" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573334752722795 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" valueMetric:<name:"audit_service.user_authentication_count" value:379 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573334752827515 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" valueMetric:<name:"audit_service.user_authentication_failure_count" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573334752847717 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" valueMetric:<name:"audit_service.user_not_found_count" value:0 unit:"gauge" >  
+
+origin:"uaa" eventType:ValueMetric timestamp:1462573334753008812 deployment:"cf-walnut" job:"uaa_z2" index:"0" ip:"10.0.81.0" valueMetric:<name:"audit_service.user_password_changes" value:0 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334782951210 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"job_queue_length.cc-generic" value:6 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334783113104 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"thread_info.event_machine.connection_count" value:3 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334782976463 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"job_queue_length.total" value:6 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334783038678 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"job_queue_length.total" value:6 unit:"gauge" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573334783310586 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numBytesAllocated" value:941608 unit:"count" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334783071454 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"thread_info.thread_count" value:22 unit:"gauge" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573334783316759 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numMallocs" value:1.0117161e+07 unit:"count" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573334783213654 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"numCPUS" value:1 unit:"count" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573334783262640 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"numGoRoutines" value:30 unit:"count" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573334783293803 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:941608 unit:"count" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573334783303733 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:589824 unit:"count" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334783216501 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"thread_info.event_machine.resultqueue.num_waiting" value:0 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334783126388 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"thread_info.event_machine.threadqueue.size" value:0 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334783165323 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"thread_info.event_machine.threadqueue.num_waiting" value:20 unit:"gauge" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573334783323070 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.numFrees" value:1.0110478e+07 unit:"count" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334783175219 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"thread_info.event_machine.resultqueue.size" value:0 unit:"gauge" >  
+
+origin:"tps_listener" eventType:ValueMetric timestamp:1462573334783329351 deployment:"cf-walnut-diego" job:"cc_bridge_z2" index:"0" ip:"10.0.49.56" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:152602 unit:"count" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334784207403 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"failed_job_count.total" value:4 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334784044353 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"failed_job_count.cc-api_z1-1" value:1 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334784063590 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"failed_job_count.cc-api_z2-1" value:1 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334784150197 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"failed_job_count.cc-generic" value:2 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334784156066 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"failed_job_count.total" value:4 unit:"gauge" >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334882618501 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"dropsondeUnmarshaller.counterEventReceived" delta:3 total:30375 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334882644076 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"dropsondeUnmarshaller.valueMetricReceived" delta:3 total:61965 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334882467288 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"MessageAggregator.uncategorizedEvents" delta:3 total:74941 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334882534168 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"MessageAggregator.counterEventReceived" delta:12 total:72108 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334882566917 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"DopplerForwarder.sentMessages" delta:15 total:147049 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334882593597 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"dropsondeAgentListener.receivedMessageCount" delta:6 total:92340 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334882668553 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"udp.sentMessageCount" delta:15 total:147049 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334882693101 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"udp.sentByteCount" delta:2066 total:19900664 >  
+
+origin:"MetronAgent" eventType:CounterEvent timestamp:1462573334882716896 deployment:"cf-walnut-diego" job:"database_z1" index:"0" ip:"10.0.48.51" counterEvent:<name:"dropsondeAgentListener.receivedByteCount" delta:258 total:4570300 >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573334963459505 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z1" index:"0" ip:"10.0.17.7" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573334963657351 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z1" index:"0" ip:"10.0.17.7" valueMetric:<name:"numGoRoutines" value:46 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573334963783816 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z1" index:"0" ip:"10.0.17.7" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:3.754216e+06 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573334963914171 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z1" index:"0" ip:"10.0.17.7" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:622592 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573334964158909 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z1" index:"0" ip:"10.0.17.7" valueMetric:<name:"memoryStats.numMallocs" value:8.3230076e+07 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573334964044393 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z1" index:"0" ip:"10.0.17.7" valueMetric:<name:"memoryStats.numBytesAllocated" value:3.754216e+06 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573334964357269 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z1" index:"0" ip:"10.0.17.7" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:138632 unit:"count" >  
+
+origin:"LoggregatorTrafficController" eventType:ValueMetric timestamp:1462573334964254029 deployment:"cf-walnut" job:"loggregator_trafficcontroller_z1" index:"0" ip:"10.0.17.7" valueMetric:<name:"memoryStats.numFrees" value:8.3215634e+07 unit:"count" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334969495411 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"vitals.uptime" value:870 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334969517549 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"vitals.cpu" value:1 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334969587616 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"vitals.mem_bytes" value:3.22957312e+08 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334969599961 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"vitals.cpu_load_avg" value:0.07 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334969640302 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"vitals.mem_used_bytes" value:2.080489472e+09 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334969682900 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"vitals.num_cores" value:2 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334969648766 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"vitals.mem_free_bytes" value:5.761847296e+09 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334970216284 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"log_count.off" value:0 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334970381279 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"log_count.debug" value:3598 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334970415447 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"log_count.debug1" value:0 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334970230486 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"log_count.fatal" value:0 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334970308325 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"log_count.error" value:0 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334970323849 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"log_count.warn" value:0 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334970372476 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"log_count.info" value:1495 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334970423538 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"log_count.debug2" value:5489 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334970496368 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"log_count.all" value:0 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334973325423 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"tasks_running.memory_in_mb" value:0 unit:"gauge" >  
+
+origin:"cc" eventType:ValueMetric timestamp:1462573334973305908 deployment:"cf-walnut" job:"api_z1" index:"1" ip:"10.0.17.2" valueMetric:<name:"tasks_running.count" value:0 unit:"gauge" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334991408039 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"numCPUS" value:2 unit:"count" >  
+
+origin:"rep" eventType:CounterEvent timestamp:1462573334991309580 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" counterEvent:<name:"logSenderTotalMessagesRead" delta:10 total:56977 >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334991439517 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"numGoRoutines" value:286 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334992041713 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"memoryStats.numBytesAllocated" value:2.980736e+06 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334991946031 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"memoryStats.numBytesAllocatedHeap" value:2.980736e+06 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334992016551 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"memoryStats.numBytesAllocatedStack" value:1.703936e+06 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334992089336 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"memoryStats.numFrees" value:2.7682915e+07 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334992065228 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"memoryStats.numMallocs" value:2.7704361e+07 unit:"count" >  
+
+origin:"rep" eventType:ValueMetric timestamp:1462573334992113372 deployment:"cf-walnut-diego" job:"cell_z1" index:"0" ip:"10.0.48.53" valueMetric:<name:"memoryStats.lastGCPauseTimeNS" value:578737 unit:"count" >  
+
+origin:"listener" eventType:ValueMetric timestamp:1462573335067608274 deployment:"cf-walnut" job:"hm9000_z1" index:"0" ip:"10.0.17.5" valueMetric:<name:"ActualStateListenerStoreUsagePercentage" value:0 unit:"Metric" >  
+
