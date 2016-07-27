@@ -1,0 +1,10 @@
+---
+platform: linux
+
+image: docker:///
+
+inputs:
+- name: mauditnozzle
+- name: docs-loggregator
+run:
+  path: mauditnozzle/src/mauditnozzle/concourse/scripts/run_audit.sh
