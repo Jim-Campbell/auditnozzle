@@ -13,33 +13,33 @@ to see available options: `curl auditnozzle.<base Cloud Founry URL> (such as our
 
 Supported operations (optional paramaters in <>):
 
-- measurelogs
+- `measurelogs`
 
-- reportlogs <showguids (default no)>
+- `reportlogs <showguids (default no)>`
 
-- measuremetrics
+- `measuremetrics`
 
-- reportmetricintervals <consolidated (default yes)>
+- `reportmetricintervals <consolidated (default yes)>`
 
-- reportmetrics
+- `reportmetrics`
 
-- measurelatency
+- `measurelatency`
 
-- reportlatency
+- `reportlatency`
 
-- measureloghist
+- `measureloghist`
 
-- reportloghist
+- `reportloghist`
 
-- measuretags
+- `measuretags`
 
-- reporttags <showjobs (default no)>
+- `reporttags <showjobs (default no)>`
 
-- status
+- `status`
 
-- reset
+- `reset`
 
-all the measure commands to start a scanner take runtime= flag which defaults to 10m
+all the measure commands to start a scanner take a `runtime=` flag which defaults to 10m
 
 example:
 
