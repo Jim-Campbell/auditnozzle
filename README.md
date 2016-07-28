@@ -53,5 +53,5 @@ Will report the results. It can be run either while the scan is still running, o
 
 Use `curl -s auditnozzle.walnut.cf-app.com/status` to monitor which scanners are running.
 
-
+Based on a hackday project Spring 2016 with Kira Coombs
 
