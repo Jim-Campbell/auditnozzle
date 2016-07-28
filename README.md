@@ -1,4 +1,4 @@
-auditnozzle is a CF pushable app that connects to the firehose endpoint and provides a number of functions for analyzing the flow of messages out of the firehose.
+`auditnozzle` is a CF pushable app that connects to the firehose endpoint and provides a number of functions for analyzing the flow of messages out of the firehose.
 
 To build and run
 
@@ -9,7 +9,7 @@ To build and run
 To use:
 set environment variables `API_ENDPOINT`, `USER_ID`, `USER_PASSWORD` and optionally `SKIP_SSL_VALIDATION` (true/false) 
 
-to see available options: `curl -s auditnozzle.walnut.cf-app.com`
+to see available options: `curl auditnozzle.<base Cloud Founry URL> (such as our_deployment.cf-app.com)`
 
 Supported operations (optional paramaters in <>):
 
