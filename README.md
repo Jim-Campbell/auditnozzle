@@ -33,17 +33,17 @@ Supported operations (optional paramaters in <>):
 
 - measuretags
 
-- reporttags <showjobs (default no)
+- reporttags <showjobs (default no)>
 
 - status
 
 - reset
 
-all scanners take runtime= flag defaults to 1m
+all the measure commands to start a scanner take runtime= flag which defaults to 10m
 
 example:
 
-`curl -s auditnozzle.walnut.cf-app.com/measurelogs`
+`curl -s auditnozzle.walnut.cf-app.com/measurelogs?runtime=20m`
 
 Will start a log scanning run.
 
